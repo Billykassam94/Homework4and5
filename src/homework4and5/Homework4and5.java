@@ -118,7 +118,7 @@ public class Homework4and5 {
             System.out.println("Data Imported");
             System.out.println("Horray");
             System.out.println("hello");
-            System.out.println("world");
+            
 
         } catch (FileNotFoundException ex) {
             System.out.println("File not found");
