@@ -71,11 +71,10 @@ public class Homework4and5 {
 
             BufferedReader myReader = new BufferedReader(new FileReader("C:\\Users\\nabil\\Desktop\\Software development\\Programming Obj.-Oriented Approach\\Term 2\\Homework\\newData.csv"));
 
-            String line = "";
+            String line = myReader.readLine();
             
-
             myReader.readLine();
-            while ((line = myReader.readLine()) != null) {
+            while (line  != null) {
                 // string array values that splits line by commas.
                 String[] values = line.split(",");
 
@@ -117,6 +116,7 @@ public class Homework4and5 {
             conn.close();
 
             System.out.println("Data Imported");
+            System.out.println("Horray");
 
         } catch (FileNotFoundException ex) {
             System.out.println("File not found");
