@@ -116,7 +116,7 @@ public class Homework4and5 {
             conn.close();
 
             System.out.println("Data Imported");
-            System.out.println("Horray");
+          
             
             
 
