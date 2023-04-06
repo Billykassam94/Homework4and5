@@ -32,6 +32,8 @@ public class Homework4and5 {
         
         //method to create database and table
         dbconn.createDB();
+        
+        dbconn.addData();
 
     
 
